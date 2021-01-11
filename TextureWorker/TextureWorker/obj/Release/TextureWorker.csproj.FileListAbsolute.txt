@@ -1,0 +1,16 @@
+E:\GitTemp\AllGit\WPF_TextureWorker\TextureWorker\TextureWorker\bin\Release\TextureWorker.exe.config
+E:\GitTemp\AllGit\WPF_TextureWorker\TextureWorker\TextureWorker\bin\Release\TextureWorker.exe
+E:\GitTemp\AllGit\WPF_TextureWorker\TextureWorker\TextureWorker\bin\Release\TextureWorker.pdb
+E:\GitTemp\AllGit\WPF_TextureWorker\TextureWorker\TextureWorker\bin\Release\System.Drawing.Common.dll
+E:\GitTemp\AllGit\WPF_TextureWorker\TextureWorker\TextureWorker\obj\Release\MainWindow.g.cs
+E:\GitTemp\AllGit\WPF_TextureWorker\TextureWorker\TextureWorker\obj\Release\App.g.cs
+E:\GitTemp\AllGit\WPF_TextureWorker\TextureWorker\TextureWorker\obj\Release\TextureWorker_MarkupCompile.cache
+E:\GitTemp\AllGit\WPF_TextureWorker\TextureWorker\TextureWorker\obj\Release\TextureWorker_MarkupCompile.lref
+E:\GitTemp\AllGit\WPF_TextureWorker\TextureWorker\TextureWorker\obj\Release\MainWindow.baml
+E:\GitTemp\AllGit\WPF_TextureWorker\TextureWorker\TextureWorker\obj\Release\TextureWorker.g.resources
+E:\GitTemp\AllGit\WPF_TextureWorker\TextureWorker\TextureWorker\obj\Release\TextureWorker.Properties.Resources.resources
+E:\GitTemp\AllGit\WPF_TextureWorker\TextureWorker\TextureWorker\obj\Release\TextureWorker.csproj.GenerateResource.cache
+E:\GitTemp\AllGit\WPF_TextureWorker\TextureWorker\TextureWorker\obj\Release\TextureWorker.csproj.CoreCompileInputs.cache
+E:\GitTemp\AllGit\WPF_TextureWorker\TextureWorker\TextureWorker\obj\Release\TextureWorker.csproj.CopyComplete
+E:\GitTemp\AllGit\WPF_TextureWorker\TextureWorker\TextureWorker\obj\Release\TextureWorker.exe
+E:\GitTemp\AllGit\WPF_TextureWorker\TextureWorker\TextureWorker\obj\Release\TextureWorker.pdb
