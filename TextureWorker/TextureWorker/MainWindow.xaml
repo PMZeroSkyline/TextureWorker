@@ -1,0 +1,41 @@
+﻿<Window x:Class="TextureWorker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextureWorker"
+        mc:Ignorable="d"
+        Title="TextureWorker" Height="350" Width="255" Background="#FF454545" WindowStyle="ToolWindow" ResizeMode="NoResize" Icon="icon.png">
+    <ScrollViewer HorizontalAlignment="Left" Height="315" VerticalAlignment="Top" Width="240">
+        <Grid x:Name="My_reTextrueGrid" HorizontalAlignment="Left" Height="850" VerticalAlignment="Top" Width="220" Margin="0">
+            <TextBlock x:Name="My_PsText_T" HorizontalAlignment="Left" TextWrapping="Wrap" Text="拖拽图片进入" VerticalAlignment="Top" Margin="50,95,0,0" Width="120" Foreground="#FFBFBFBF" TextAlignment="Center"/>
+            <ListBox x:Name="My_ListBox_T" HorizontalAlignment="Left" Height="190" VerticalAlignment="Top" Width="200" Margin="10,10,0,0" Foreground="#FFBFBFBF" Background="#7F1D1D1D" AllowDrop="True" DragEnter="My_ListBox_T_DragEnter" Drop="My_ListBox_T_Drop"/>
+            <ComboBox x:Name="My_ComBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="80,225,0,0" Background="Black" Foreground="#FF2A2A2A" BorderBrush="#FF2A2A2A">
+                <ComboBoxItem Content=".jpg"/>
+                <ComboBoxItem Content=".png"/>
+                <ComboBoxItem Content=".tiff"/>
+                <ComboBoxItem Content=".wmf"/>
+                <ComboBoxItem Content=".emf"/>
+                <ComboBoxItem Content=".bmp"/>
+                <ComboBoxItem Content=".gif"/>
+                <ComboBoxItem Content=".ico"/>
+            </ComboBox>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="转换为：" VerticalAlignment="Top" Margin="20,230,0,0" Width="60" Foreground="#FFBFBFBF" TextAlignment="Center"/>
+            <Button x:Name="My_B_ConverImage" Content="批量转换格式" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="25" Background="#FF595959" Foreground="#FFBFBFBF" Margin="10,275,0,0" Click="My_B_ConverImage_Click"/>
+            <TextBox x:Name="My_T_ParseX" HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Margin="80,375,0,0" Background="#7F1D1D1D" Foreground="#FFBFBFBF"/>
+            <TextBox x:Name="My_T_ParseY" HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Margin="150,375,0,0" Background="#7F1D1D1D" Foreground="#FFBFBFBF"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="x" VerticalAlignment="Top" Margin="132.5,380,0,0" Width="15" Foreground="#FFBFBFBF" TextAlignment="Center"/>
+            <Button x:Name="My_B_ReReslutation" Content="批量转换分辨率" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="25" Background="#FF595959" Foreground="#FFBFBFBF" Margin="10,425,0,0" Click="My_B_ReReslutation_Click"/>
+            <Button x:Name="My_B_Gray" Content="批量转换为灰度图" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="25" Background="#FF595959" Foreground="#FFBFBFBF" Margin="10,500,0,0" Click="My_B_Gray_Click"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="20,380,0,0" Width="60" Foreground="#FFBFBFBF" TextAlignment="Center"><Run Text="分辨率"/><Run Text="："/></TextBlock>
+            <Button x:Name="My_B_Blur" Content="批量模糊" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="25" Background="#FF595959" Foreground="#FFBFBFBF" Margin="10,625,10,70.5" Click="My_B_Blur_Click" Cursor=""/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="20,575,0,0" Width="60" Foreground="#FFBFBFBF" TextAlignment="Center" Text="模糊强度："/>
+            <Slider x:Name="My_T_BlurSlider" VerticalAlignment="Top" HorizontalAlignment="Left" Width="100" Margin="100,575,20,104" Minimum="1" Value="1" Foreground="Gray"/>
+            <Button x:Name="My_B_Invert" Content="批量反色" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="25" Background="#FF595959" Foreground="#FFBFBFBF" Margin="10,750,0,0" Cursor="" Click="My_B_Invert_Click"/>
+            <CheckBox x:Name="My_T_CB_R" Content="R" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,700,0,0" Foreground="#FFBFBFBF" IsChecked="True"/>
+            <CheckBox x:Name="My_T_CB_G" Content="G" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,700,0,0" Foreground="#FFBFBFBF" IsChecked="True"/>
+            <CheckBox x:Name="My_T_CB_B" Content="B" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="140,700,0,0" Foreground="#FFBFBFBF" IsChecked="True"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="70,800,0,0" Width="80" Foreground="#FFBFBFBF" TextAlignment="Center" Text=" -ZeroSkyline-" FontSize="10"/>
+        </Grid>
+    </ScrollViewer>
+</Window>

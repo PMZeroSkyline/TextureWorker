@@ -1,0 +1,51 @@
+D:\Program Project\VS\WPF\ReNamer\ReNamer\bin\Debug\VideoDemo.exe.config
+D:\Program Project\VS\WPF\ReNamer\ReNamer\bin\Debug\VideoDemo.exe
+D:\Program Project\VS\WPF\ReNamer\ReNamer\bin\Debug\VideoDemo.pdb
+D:\Program Project\VS\WPF\ReNamer\ReNamer\bin\Debug\System.Drawing.Common.dll
+D:\Program Project\VS\WPF\ReNamer\ReNamer\obj\Debug\ReNamer.csprojAssemblyReference.cache
+D:\Program Project\VS\WPF\ReNamer\ReNamer\obj\Debug\MainWindow.g.cs
+D:\Program Project\VS\WPF\ReNamer\ReNamer\obj\Debug\App.g.cs
+D:\Program Project\VS\WPF\ReNamer\ReNamer\obj\Debug\VideoDemo_MarkupCompile.cache
+D:\Program Project\VS\WPF\ReNamer\ReNamer\obj\Debug\VideoDemo_MarkupCompile.lref
+D:\Program Project\VS\WPF\ReNamer\ReNamer\obj\Debug\MainWindow.baml
+D:\Program Project\VS\WPF\ReNamer\ReNamer\obj\Debug\VideoDemo.g.resources
+D:\Program Project\VS\WPF\ReNamer\ReNamer\obj\Debug\VideoDemo.Properties.Resources.resources
+D:\Program Project\VS\WPF\ReNamer\ReNamer\obj\Debug\ReNamer.csproj.GenerateResource.cache
+D:\Program Project\VS\WPF\ReNamer\ReNamer\obj\Debug\ReNamer.csproj.CoreCompileInputs.cache
+D:\Program Project\VS\WPF\ReNamer\ReNamer\obj\Debug\ReNamer.csproj.CopyComplete
+D:\Program Project\VS\WPF\ReNamer\ReNamer\obj\Debug\VideoDemo.exe
+D:\Program Project\VS\WPF\ReNamer\ReNamer\obj\Debug\VideoDemo.pdb
+D:\Program Project\Git\ReNamer\ReNamer\obj\Debug\ReNamer.csprojAssemblyReference.cache
+D:\Program Project\Git\ReNamer\ReNamer\obj\Debug\MainWindow.g.cs
+D:\Program Project\Git\ReNamer\ReNamer\obj\Debug\App.g.cs
+D:\Program Project\Git\ReNamer\ReNamer\obj\Debug\VideoDemo_MarkupCompile.cache
+D:\Program Project\Git\ReNamer\ReNamer\obj\Debug\VideoDemo_MarkupCompile.lref
+D:\Program Project\Git\ReNamer\ReNamer\obj\Debug\MainWindow.baml
+D:\Program Project\Git\ReNamer\ReNamer\obj\Debug\VideoDemo.g.resources
+D:\Program Project\Git\ReNamer\ReNamer\obj\Debug\VideoDemo.pdb
+D:\Program Project\Git\ReNamer\ReNamer\bin\Debug\VideoDemo.exe.config
+D:\Program Project\Git\ReNamer\ReNamer\bin\Debug\VideoDemo.exe
+D:\Program Project\Git\ReNamer\ReNamer\bin\Debug\VideoDemo.pdb
+D:\Program Project\Git\ReNamer\ReNamer\bin\Debug\System.Drawing.Common.dll
+D:\Program Project\Git\ReNamer\ReNamer\obj\Debug\VideoDemo.Properties.Resources.resources
+D:\Program Project\Git\ReNamer\ReNamer\obj\Debug\ReNamer.csproj.GenerateResource.cache
+D:\Program Project\Git\ReNamer\ReNamer\obj\Debug\ReNamer.csproj.CoreCompileInputs.cache
+D:\Program Project\Git\ReNamer\ReNamer\obj\Debug\ReNamer.csproj.CopyComplete
+D:\Program Project\Git\ReNamer\ReNamer\obj\Debug\VideoDemo.exe
+E:\GitTemp\BackUpRenamer\WPF_ReNamer\ReNamer\ReNamer\bin\Debug\TextureWorker.exe.config
+E:\GitTemp\BackUpRenamer\WPF_ReNamer\ReNamer\ReNamer\bin\Debug\TextureWorker.exe
+E:\GitTemp\BackUpRenamer\WPF_ReNamer\ReNamer\ReNamer\bin\Debug\TextureWorker.pdb
+E:\GitTemp\BackUpRenamer\WPF_ReNamer\ReNamer\ReNamer\bin\Debug\System.Drawing.Common.dll
+E:\GitTemp\BackUpRenamer\WPF_ReNamer\ReNamer\ReNamer\obj\Debug\ReNamer.csprojAssemblyReference.cache
+E:\GitTemp\BackUpRenamer\WPF_ReNamer\ReNamer\ReNamer\obj\Debug\MainWindow.g.cs
+E:\GitTemp\BackUpRenamer\WPF_ReNamer\ReNamer\ReNamer\obj\Debug\App.g.cs
+E:\GitTemp\BackUpRenamer\WPF_ReNamer\ReNamer\ReNamer\obj\Debug\TextureWorker_MarkupCompile.cache
+E:\GitTemp\BackUpRenamer\WPF_ReNamer\ReNamer\ReNamer\obj\Debug\TextureWorker_MarkupCompile.lref
+E:\GitTemp\BackUpRenamer\WPF_ReNamer\ReNamer\ReNamer\obj\Debug\MainWindow.baml
+E:\GitTemp\BackUpRenamer\WPF_ReNamer\ReNamer\ReNamer\obj\Debug\TextureWorker.g.resources
+E:\GitTemp\BackUpRenamer\WPF_ReNamer\ReNamer\ReNamer\obj\Debug\TextureWorker.Properties.Resources.resources
+E:\GitTemp\BackUpRenamer\WPF_ReNamer\ReNamer\ReNamer\obj\Debug\ReNamer.csproj.GenerateResource.cache
+E:\GitTemp\BackUpRenamer\WPF_ReNamer\ReNamer\ReNamer\obj\Debug\ReNamer.csproj.CoreCompileInputs.cache
+E:\GitTemp\BackUpRenamer\WPF_ReNamer\ReNamer\ReNamer\obj\Debug\ReNamer.csproj.CopyComplete
+E:\GitTemp\BackUpRenamer\WPF_ReNamer\ReNamer\ReNamer\obj\Debug\TextureWorker.exe
+E:\GitTemp\BackUpRenamer\WPF_ReNamer\ReNamer\ReNamer\obj\Debug\TextureWorker.pdb
