@@ -260,8 +260,12 @@ namespace TextureWorker
                         for (int y = 0; y < bitmap.Height; y++)
                         {
                             Color orginalColor = bitmap.GetPixel(x,y);
-                            int grayScale = (int)((orginalColor.R * .3) + (orginalColor.G * .59) + (orginalColor.B * .11));
-                            Color newColor = Color.FromArgb(grayScale, grayScale, grayScale);
+                            //浮点数运算
+                            //int grayScale = (int)((orginalColor.R * .3) + (orginalColor.G * .59) + (orginalColor.B * .11));
+                            //避免低速的浮点运算，所以需要整数算法。
+                            int grayScale = ((int)orginalColor.R * 299 + (int)orginalColor.G * 587 + (int)orginalColor.B * 115 + 500) / 1000;
+                            //RGB一般是8位精度，现在缩放1000倍，所以上面的运算是32位整型的运算。注意后面那个除法是整数除法，所以需要加上500来实现四舍五入。
+                            Color newColor = Color.FromArgb(bitmap.GetPixel(x,y).A, grayScale, grayScale, grayScale);
                             bitmap.SetPixel(x, y, newColor);
                         }
                     }
@@ -274,6 +278,7 @@ namespace TextureWorker
                 MessageBox.Show("先拖入文件");
             }
         }
+
 
         private void My_B_Blur_Click(object sender, RoutedEventArgs e)
         {
@@ -289,22 +294,27 @@ namespace TextureWorker
                     {
                         for (int y = 0; y < bitmap.Height; y++)
                         {
-                            try
+                            for (int i = 0; i != blurIntensity; i++)
                             {
-                                Color prevX = bitmap.GetPixel(x-blurIntensity,y);
-                                Color nextX = bitmap.GetPixel(x + blurIntensity, y);
-                                Color prevY = bitmap.GetPixel(x, y - blurIntensity);
-                                Color nextY = bitmap.GetPixel(x, y + blurIntensity);
+                                try
+                                {
+                                    Color prevX = bitmap.GetPixel(x - blurIntensity, y);
+                                    Color nextX = bitmap.GetPixel(x + blurIntensity, y);
+                                    Color prevY = bitmap.GetPixel(x, y - blurIntensity);
+                                    Color nextY = bitmap.GetPixel(x, y + blurIntensity);
 
-                                int avgR = (int)((prevX.R + nextX.R + prevY.R + nextY.R) / 4);
-                                int avgG = (int)((prevX.G + nextX.G + prevY.G + nextY.G) / 4);
-                                int avgB = (int)((prevX.B + nextX.B + prevY.B + nextY.B) / 4);
 
-                                bitmap.SetPixel(x,y,Color.FromArgb(avgR,avgG,avgB));
+                                    int avgR = (int)((prevX.R + nextX.R + prevY.R + nextY.R) / 4);
+                                    int avgG = (int)((prevX.G + nextX.G + prevY.G + nextY.G) / 4);
+                                    int avgB = (int)((prevX.B + nextX.B + prevY.B + nextY.B) / 4);
+                                    int avgA = (int)((prevX.A + nextX.A + prevY.A + nextY.A) / 4);
 
-                            }
-                            catch (Exception)
-                            {
+                                    bitmap.SetPixel(x, y, Color.FromArgb(avgA, avgR, avgG, avgB));
+                                }
+                                catch (Exception)
+                                {
+                                    ;
+                                }
                             }
                         }
                     }
@@ -346,7 +356,7 @@ namespace TextureWorker
                             {
                                 blue = 255 - blue;
                             }
-                            bitmap.SetPixel(x, y, Color.FromArgb(red,green,blue)) ;
+                            bitmap.SetPixel(x, y, Color.FromArgb(bitmap.GetPixel(x,y).A, red,green,blue)) ;
                         }
                     }
                     SaveImage("批量反色", file, bitmap);
