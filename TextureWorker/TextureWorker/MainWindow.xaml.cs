@@ -344,6 +344,7 @@ namespace TextureWorker
                             int red = pixel.R;
                             int green = pixel.G;
                             int blue = pixel.B;
+                            int alpha = pixel.A;
                             if (My_T_CB_R.IsChecked == true)
                             {
                                 red = 255 - red;
@@ -356,7 +357,11 @@ namespace TextureWorker
                             {
                                 blue = 255 - blue;
                             }
-                            bitmap.SetPixel(x, y, Color.FromArgb(bitmap.GetPixel(x,y).A, red,green,blue)) ;
+                            if (My_T_CB_A.IsChecked == true)
+                            {
+                                blue = 255 - blue;
+                            }
+                            bitmap.SetPixel(x, y, Color.FromArgb(alpha, red,green,blue)) ;
                         }
                     }
                     SaveImage("批量反色", file, bitmap);

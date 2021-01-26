@@ -18,7 +18,6 @@ E:\Git\WPF_TextureWorker\TextureWorker\TextureWorker\bin\Release\TextureWorker.e
 E:\Git\WPF_TextureWorker\TextureWorker\TextureWorker\bin\Release\TextureWorker.exe
 E:\Git\WPF_TextureWorker\TextureWorker\TextureWorker\bin\Release\TextureWorker.pdb
 E:\Git\WPF_TextureWorker\TextureWorker\TextureWorker\bin\Release\System.Drawing.Common.dll
-E:\Git\WPF_TextureWorker\TextureWorker\TextureWorker\obj\Release\TextureWorker.csprojAssemblyReference.cache
 E:\Git\WPF_TextureWorker\TextureWorker\TextureWorker\obj\Release\MainWindow.g.cs
 E:\Git\WPF_TextureWorker\TextureWorker\TextureWorker\obj\Release\App.g.cs
 E:\Git\WPF_TextureWorker\TextureWorker\TextureWorker\obj\Release\TextureWorker_MarkupCompile.cache

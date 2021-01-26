@@ -32,9 +32,10 @@
             <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="20,575,0,0" Width="60" Foreground="#FFBFBFBF" TextAlignment="Center" Text="模糊强度："/>
             <Slider x:Name="My_T_BlurSlider" VerticalAlignment="Top" HorizontalAlignment="Left" Width="100" Margin="100,575,20,104" Minimum="1" Value="1" Foreground="Gray" Maximum="4"/>
             <Button x:Name="My_B_Invert" Content="批量反色" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="25" Background="#FF595959" Foreground="#FFBFBFBF" Margin="10,750,0,0" Cursor="" Click="My_B_Invert_Click"/>
-            <CheckBox x:Name="My_T_CB_R" Content="R" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60,700,0,0" Foreground="#FFBFBFBF" IsChecked="True"/>
-            <CheckBox x:Name="My_T_CB_G" Content="G" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,700,0,0" Foreground="#FFBFBFBF" IsChecked="True"/>
-            <CheckBox x:Name="My_T_CB_B" Content="B" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="140,700,0,0" Foreground="#FFBFBFBF" IsChecked="True"/>
+            <CheckBox x:Name="My_T_CB_R" Content="R" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="-150,700,0,0" Foreground="#FFBFBFBF" IsChecked="True"/>
+            <CheckBox x:Name="My_T_CB_G" Content="G" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="-50,700,0,0" Foreground="#FFBFBFBF" IsChecked="True"/>
+            <CheckBox x:Name="My_T_CB_B" Content="B" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="50,700,0,0" Foreground="#FFBFBFBF" IsChecked="True"/>
+            <CheckBox x:Name="My_T_CB_A" Content="A" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="150,700,0,0" Foreground="#FFBFBFBF" IsChecked="True"/>
             <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="70,800,0,0" Width="80" Foreground="#FFBFBFBF" TextAlignment="Center" Text=" -ZeroSkyline-" FontSize="10"/>
         </Grid>
     </ScrollViewer>
