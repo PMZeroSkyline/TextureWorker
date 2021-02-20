@@ -24,7 +24,7 @@
 
 ## [点我免费下载（适用于Window系统电脑）](https://github.com/PMZeroSkyline/WPF_TextureWorker/raw/main/TextureWorker/TextureWorker/bin/Release/TextureWorker.exe)
 
-### *本软件为一人开发 任何人都可以免费使用 没有广告 源代码开放在GitHub*
+### *本软件为一人开发 任何人都可以免费使用 没有广告 以开源 [点我下载我的其它免费应用](https://pmzeroskyline.github.io/FreeApps/)*
 
 由 guzhang0@gamil.com 提供支持 欢迎错误反馈
 
