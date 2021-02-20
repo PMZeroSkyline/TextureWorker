@@ -26,5 +26,7 @@
 
 ### *本软件为一人开发 任何人都可以免费使用 没有广告 以开源 [点我下载我的其它免费应用](https://pmzeroskyline.github.io/FreeApps/)*
 
+由 [guzhang0@gamil.com](https://github.com/PMZeroSkyline) 提供支持 欢迎错误反馈
+
 # ![ReNamer](icon.ico)  请我喝杯咖啡：
 ![ReNamer](4.jpg)
