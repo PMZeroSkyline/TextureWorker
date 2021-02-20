@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TextureWorker"
         mc:Ignorable="d"
-        Title="TextureWorker" Height="350" Width="255" Background="#FF454545" WindowStyle="ToolWindow" ResizeMode="NoResize" Icon="icon.png">
+        Title="TextureWorker" Height="350" Width="255" Background="#FF454545" ResizeMode="NoResize" Icon="icon.png">
     <ScrollViewer HorizontalAlignment="Left" Height="315" VerticalAlignment="Top" Width="240">
         <Grid x:Name="My_reTextrueGrid" HorizontalAlignment="Left" Height="850" VerticalAlignment="Top" Width="220" Margin="0">
             <TextBlock x:Name="My_PsText_T" HorizontalAlignment="Left" TextWrapping="Wrap" Text="拖拽图片进入" VerticalAlignment="Top" Margin="50,95,0,0" Width="120" Foreground="#FFBFBFBF" TextAlignment="Center"/>

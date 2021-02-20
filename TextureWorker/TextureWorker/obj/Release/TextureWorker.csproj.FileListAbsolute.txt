@@ -46,3 +46,4 @@ D:\Git\TextureWorker\TextureWorker\TextureWorker\obj\Release\TextureWorker.cspro
 D:\Git\TextureWorker\TextureWorker\TextureWorker\obj\Release\TextureWorker.csproj.CopyComplete
 D:\Git\TextureWorker\TextureWorker\TextureWorker\obj\Release\TextureWorker.exe
 D:\Git\TextureWorker\TextureWorker\TextureWorker\obj\Release\TextureWorker.pdb
+D:\Git\TextureWorker\TextureWorker\TextureWorker\obj\Release\TextureWorker.csprojAssemblyReference.cache
